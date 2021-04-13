@@ -1,8 +1,8 @@
 # python-pose-estimation
 in this repository we are going to create a python pose estimation
 
-steps to install:/n
-1.download the requirements.txt.
+<h1>steps to install:</h1>
+<p>1.download the requirements.txt.</p>
 2.download the droidcam app in your mobile to use it with the mobile cam.
 3.and you can simply use your computer web cam by leaving the brackets blank.
 5.check the cap = cap = cv2.VideoCapture('http://192.168.27.101:4748/video').
