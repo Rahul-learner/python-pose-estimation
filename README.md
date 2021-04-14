@@ -12,4 +12,4 @@ in this repository we are going to create a python pose estimation
 you can also use the PoseModule.py it is a simple module
 
 
-# Visit https://www,pythonhelp.cf to see how its work and more
+# Visit https://www.pythonhelp.cf to see how its work and more
