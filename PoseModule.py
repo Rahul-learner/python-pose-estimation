@@ -1,6 +1,7 @@
-import cv2
-import mediapipe as mp
 import time
+import mediapipe as mp
+import cv2
+
 
 
 class poseDetector():
@@ -11,7 +12,7 @@ class poseDetector():
         self.upBody = upBody
         self.smooth = smooth
         self.detectionCon = detectionCon
-        self.trackCon = trackCon
+        self.trackCon = trackCon 
 
 
         self.mpDraw = mp.solutions.drawing_utils
@@ -20,7 +21,7 @@ class poseDetector():
                                      self.detectionCon,self.trackCon)
 
     def findPose(self, img, draw=True):
-        imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) 
         self.results = self.pose.process(imgRGB)
         if self.results.pose_landmarks:
             if draw:
